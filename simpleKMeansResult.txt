@@ -1,0 +1,48 @@
+FilteredClusterer using weka.clusterers.SimpleKMeans -N 3 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10 on data filtered through weka.filters.unsupervised.attribute.Remove -R 3-5
+
+Filtered Header
+@relation null-weka.filters.unsupervised.attribute.Remove-R3-5
+
+@attribute iA numeric
+@attribute iB numeric
+@attribute dC numeric
+
+@data
+
+
+Clusterer Model
+
+kMeans
+======
+
+Number of iterations: 2
+Within cluster sum of squared errors: 0.10069444444444445
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2
+                   (5)        (1)        (2)        (2)
+=======================================================
+iA                 -23        -35        -10        -30
+iB               -21.4        -20      -23.5        -20
+dC                  38         20         20         65
+
+
+
+
+=== Clustering stats for training data ===
+
+Clustered Instances
+0      1 ( 20%)
+1      2 ( 40%)
+2      2 ( 40%)
+
+
+=== Clustering stats for testing data ===
+
+Clustered Instances
+0      1 ( 20%)
+1      2 ( 40%)
+2      2 ( 40%)
+
