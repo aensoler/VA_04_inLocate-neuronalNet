@@ -15,4 +15,4 @@ Red neuronal híbrida que combina una red de tipo RBF y un perceptrón multicapa
 
 Como entrada de la red, se suministrarían las intensidades obtenidas de las distintas balizas (emisores de Bluetooth) y con ellas, y gracias al aprendizaje realizado anteriormente, el sistema devolvería las distancias reales.
 
-Como el proyecto se realizó para HackForGood 2014, y dado al poco tiempo tenido para desarrollar  los proyectos, ha faltado implementar la última parte de la red. Por esa razón no se ha podido ensamblarla en el resultado final.
+Como el proyecto se realizó para HackForGood 2014, y dado al poco tiempo tenido para desarrollar  los proyectos, ha faltado implementar la última parte de la red. Por esa razón no se ha podido ensamblarla en el resultado final. (A nuestro pesar)
